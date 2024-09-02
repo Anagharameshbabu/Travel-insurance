@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the scaler, model, and label encoder
-scaler = pickle.load(open('scaler.pkl', 'rb'))
+scaler = pickle.load(open('Scaler.pkl', 'rb'))
 model = pickle.load(open('model.pkl', 'rb'))
 
 # Encoding dictionaries for categorical features
